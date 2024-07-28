@@ -1,0 +1,872 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+    
+}
+
+:root {
+    --couleur-du-btn: #ffa800;
+    --couleur-du-card: blanchedalmond;
+    --couleur-du-login: whitesmoke;
+    --hover-color: #60604b;
+    --hover-color-header: rgba(255, 167, 0, 100%);
+    --couleur-afara-sasany: #ffa800;
+    
+
+
+}
+
+body {
+    background-color: whitesmoke;
+
+}
+
+
+
+
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--hover-color-header);
+}
+
+header nav {
+    background-color: transparent;
+}
+
+header .logooo {
+    font-family: cursive;
+}
+
+
+
+header nav .container-fluid .connexion {
+    display: flex;
+    margin-left: 58rem;
+    gap: 1rem;
+
+}
+
+header nav .container-fluid .connexion .login1,
+.login2  {
+    background-color: var(--couleur-du-login);
+    padding: 4px 19px;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+    transition: 0.5s;
+
+}
+
+header nav .container-fluid .connexion .login1:hover,
+.login2:hover {
+    background-color: var(--hover-color);
+    transition: 0.5s;
+    color: white;
+}
+
+.connexion2 .login1 ,
+.login2  {
+    background-color: var(--couleur-du-login);
+    padding: 4px 17px;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+    transition: 0.5s;
+
+}
+/* buton modif */
+.boutonclose:active{
+    background-color: #d5d7da;
+
+}
+
+
+
+
+.connexion2 .login1:hover,
+.login2:hover {
+    background-color: var(--hover-color);
+    transition: 0.5s;
+    color: white;
+}
+
+.connexion2 {
+    display: none;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+/* header nav .container-fluid .connexion .login2 button{
+    background-color: var(--couleur-du-login);
+    padding: 4px 19px;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+  
+} */
+
+.cancolor {
+    background-color: antiquewhite;
+}
+
+/* menu cacher ou burger */
+.navbar-nav .dropdown-menu {
+    background-color: whitesmoke;
+}
+
+.dropdown-menu .dropdown-item:active,
+.dropdown-menu .dropdown-item:focus {
+    background-color: var(--couleur-du-btn);
+}
+
+.bar {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: whitesmoke;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-right: 0.5rem;
+}
+
+.bar:focus {
+
+    border-color: var(--couleur-du-btn);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #ffa80096;
+}
+
+.recherche {
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    background-color: var(--couleur-du-btn);
+    transition: 0.2s;
+}
+
+.recherche:hover {
+    background-color: var(--hover-color);
+    transition: 0.2s;
+    color: white;
+}
+
+
+/* section 1 */
+
+
+main {
+    background-color: whitesmoke;
+    padding: 2rem;
+
+}
+
+main .section1 {
+    height: 23rem;
+    width: 100%;
+    display: flex;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+main .section1 .gauche {
+    text-align: center;
+}
+
+main .section1 .gauche .slogon h1 {
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .section1 .gauche .slogon h1 span {
+    padding: 0px 7px;
+    border-radius: 1rem;
+    background-color: #ffbc02;
+}
+
+main .section1 .gauche .retour {
+    margin-top: 1rem;
+}
+
+main .section1 .gauche button {
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: var(--couleur-du-btn);
+    border-radius: 0.3rem;
+    margin: 1.4rem 0;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1.3rem;
+    transition: 0.4s;
+
+}
+
+main .section1 .gauche button:hover {
+    background-color: var(--hover-color);
+    color: white;
+    transition: 0.4s;
+}
+
+.section1 .droite .alltipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 .droite .alltipe a {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.section1 .droite .alltipe a:hover {
+    transition: 1s;
+}
+
+
+/* raisaka animation */
+.soupe {
+    animation: dobodoboka 1s infinite;
+    transition: 1s;
+}
+
+.spaghetti {
+    position: relative;
+    animation: rotation 4s infinite linear;
+}
+
+.poulet {
+    animation: dobodoboka 1s infinite;
+}
+
+.pizza {
+    position: relative;
+    animation: rotation 4s infinite linear;
+}
+
+.gateaux {
+    animation: dobodoboka 1s infinite;
+}
+
+.rhum {
+    animation: dobodoboka 1s infinite;
+
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes dobodoboka {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+
+
+
+/* Section2222 */
+
+main .section2 {
+    padding: 1rem;
+    background-color: var(--couleur-afara-sasany);
+}
+
+main .section2 .geste {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+main .section2 .geste .card2 {
+    padding: 1rem;
+    text-align: center;
+    border: none;
+    background: transparent;
+    /* margin: 1rem 1rem; */
+}
+
+main .section2 .geste p {
+    color: white;
+    font-family: sans-serif, Arial, Helvetica;
+    font-weight: 300;
+}
+
+
+
+
+
+/* section33333 */
+
+
+
+.section3 {
+    margin: 3rem 0rem;
+    /* background-color: red; */
+}
+
+
+
+.menu {
+    padding: 3rem 0rem;
+}
+
+.nomdupla {
+    justify-content: center;
+    display: flex;
+    padding: 3rem 0rem 0rem 0rem;
+}
+
+.nomdupla img {
+    width: 10%;
+    padding: 0rem 0.5rem;
+    vertical-align: middle;
+}
+
+
+.card3 .saryinfo {
+    text-align: center;
+
+}
+
+.card3 .sary3 {
+    text-align: center;
+    width: 100%;
+
+}
+
+.card3 .nom {
+    margin-bottom: 0.2rem;
+    font-size: 1.8rem;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+.card3 .noteetprix {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.9rem 1rem;
+}
+
+.card3 .noteetprix .etoile {
+    display: flex;
+    align-items: center;
+}
+
+.card3 .noteetprix .etoile i {
+    cursor: pointer;
+    color: red;
+    font-size: 1.4rem;
+}
+
+.card3 .noteetprix .vidiny p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(1rem, 2vw, 1rem);
+    font-weight: 900;
+    color: black;
+}
+
+.card3 .description {
+    text-align: center;
+    padding: 0.9rem 1rem;
+    height: 10rem;
+
+}
+
+.card3 .description p {
+    text-align: justify;
+    word-spacing: -3px;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: clamp(1.1rem, 2vw, 1rem);
+    font-weight: 300;
+    color: black;
+
+}
+
+.card3 .commande {
+    padding: 00rem 0rem 1rem 0;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+
+.card3 .commande button {
+    background-color: var(--couleur-du-btn);
+    border: solid #ffffff00;
+    border-radius: 30px;
+    padding: 0.5rem 5rem;
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.7s;
+    color: white;
+
+}
+
+.card3 .commande button:hover {
+    background-color: var(--hover-color);
+    transition: 0.7s;
+    color: white;
+}
+
+
+
+/* resaka swiper */
+
+
+.card__container {
+    padding-block: 5rem;
+    /* background-color: blue; */
+}
+
+
+.card__content {
+    padding: 13px 0;
+    margin-inline: 1.75rem;
+    overflow: hidden;
+    /* background-color: blue;  */
+
+}
+
+
+
+
+/*
+.swiper-pagination-bullet {
+    background-color: hsl(212, 32%, 40%);
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--primary-color);
+} */
+
+
+
+
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    transition: 0.5s;
+    color: #60604b;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 320px) {
+    .card__data {
+        padding: 1rem;
+    }
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+    .card__content {
+        margin-inline: 3rem;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: block;
+    }
+}
+
+/* For large devices */
+/* @media screen and (min-width: 1120px) {
+    .card__container {
+        max-width: 1120px;
+    }
+} */
+
+
+
+
+/* section444444 */
+
+.section4 {
+    margin: 3rem 0rem;
+    /* background-color: red; */
+}
+
+
+/* section5555555 */
+
+.section5 {
+    margin: 3rem 0rem;
+}
+
+/* section66666 */
+
+.section6 {
+    margin: 3rem 0rem;
+}
+
+/* section7777777 */
+
+.section7 {
+    margin: 3rem 0rem;
+}
+
+/* section888888 */
+
+.section8 {
+    margin: 3rem 0rem;
+}
+
+
+
+
+
+/* footer */
+
+footer {
+    background-color: #ffbd6f;
+    margin-top: 3rem;
+    width: 100%;
+
+}
+
+footer .boxfoot {
+    display: flex;
+    padding: 2rem;
+
+}
+
+footer .boxfoot .part1,
+.pp2,
+.pp3 {
+    flex: 1;
+}
+
+footer .boxfoot .part1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+footer .boxfoot .part1 img {
+    width: 50%
+}
+
+footer .boxfoot .part1 p {
+    font-size: 1.3rem;
+    font-family: system-ui;
+    padding: 1rem 0;
+}
+
+footer .boxfoot .part1 .share {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+footer .boxfoot .part1 .share a {
+    text-decoration: none;
+    padding: 0.8rem 1rem;
+    margin: 0.8rem 1rem;
+    border-radius: 1rem;
+    background-color: var(--couleur-du-btn);
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    color: black;
+    transition: 0.5s;
+    /* font-size: 2rem; */
+}
+
+footer .boxfoot .part1 .share a:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: #60604b;
+    color: white;
+}
+
+footer .boxfoot .pp2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+footer .boxfoot .part2 {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+footer .boxfoot .part2 img {
+    width: 100%;
+    transition: 0.5s;
+
+}
+
+footer .boxfoot .part2 img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+footer .boxfoot .part3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 5rem;
+
+}
+
+footer .pp3 h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+
+}
+
+footer .boxfoot .part3 a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    transition: 0.5s;
+    font-size: 1.2rem;
+    font-family: system-ui;
+    padding: 1rem 0;
+
+
+
+}
+
+footer .boxfoot .part3 a:hover {
+    padding-left: 30px;
+    transition: 0.5s;
+}
+
+footer .credit {
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    border-top: 20px black;
+}
+
+
+.descmodif {
+    height: auto;
+}
+
+nigth {
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* MODALE JIABY */
+
+
+
+#contenuemodal{
+    width: 200%;
+    top: 7rem;
+    right: 17rem;
+}
+.cardmodal {
+    align-items: center;
+    display: flex;
+}
+
+.part1 {
+    /* background-color: yellow; */
+    align-items: center;
+}
+
+.part1 img {
+    width: 100%;
+}
+
+
+
+
+.part2 .star {
+    display: flex;
+    gap: 1rem
+}
+
+.part2 .star i {
+    font-size: 1.5rem;
+    color: rgba(255, 167, 0, 100%);
+    ;
+}
+.part2 .vidiny p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(1rem, 2vw, 1rem);
+    font-weight: 900;
+    color: black;
+}
+
+.part2 .quantite h2{
+    text-align: center;
+    
+}
+.part2 .quantite .reglagequantiter{
+    gap: 1rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.part2 .quantite .reglagequantiter i{
+  background-color: #ffa800;
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.part2 .but{
+    display: flex;
+    justify-content: end;
+}
+.part2 .but  button{
+    border-radius: 30px;
+    padding: 0.5rem 3rem;
+    border: none;
+    background-color: var(--couleur-du-btn);
+}
+.part2 .but  button:hover{
+    background-color:var(--hover-color);
+}
+
+/* +++++++++++++FORMULAIRE+++++++++++++ */
+
+.form1 , .form2{
+    height: 100%;
+    z-index: 1000;
+    backdrop-filter: blur(6px);
+    position: fixed;
+    top: -150rem;
+    width: 100%;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    transition: top 0.7s ease; 
+}
+
+
+.box-form-content {
+    width: 27%;
+
+}
+.box-form-content h2{
+    font-weight: 500;
+    color: orange;
+    font-family: ui-sans-serif;
+    font-size: 2.3rem;
+}
+
+.form-content {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 8px 16px 0px;
+    border-radius: 8px;
+    width: 100%;
+    padding: 1rem 1rem 3rem 1rem;
+}
+.connect{
+    padding:  0 0 2rem 0;
+}
+.connex-boxx{
+    padding: 1rem 0px 2rem 0rem;
+    border-bottom: 2px solid #1c1e21 ;
+    font-family: unset;
+}
+
+.connexion1 {
+    width: 100%;
+    border: none;
+    text-align: center;
+    background-color:var(--couleur-du-login);
+    padding: 0.3rem 0.3rem;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.5s;
+    border-radius: 8px;
+    transition: 0.5;
+    
+}
+.connexion1:hover{
+    color: white;
+    background-color: var(--hover-color);
+    transition: 0.5s;
+}
+.creation-compte{
+    display: flex;
+    justify-content: center;
+
+}
+.creation-compte button{
+    width: 63%;
+    margin-top: 2rem;
+    text-align: center;
+    background-color: var(--couleur-du-login);
+    padding: 0.3rem 1.1rem 0.3rem 1.1rem;
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 8px;
+    border: none;
+}
+.creation-compte button:hover{
+    color: white;
+    background-color: var(--hover-color);
+    transition: 0.5s;
+}
+
+
+

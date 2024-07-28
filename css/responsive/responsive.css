@@ -1,0 +1,300 @@
+/* pour phone */
+
+@media screen and (max-width: 768px) {
+    header nav {
+        display: none;
+    }
+
+    /* main{
+        padding: 1rem;
+    } */
+
+    main .section1 {
+        height: auto;
+        flex-direction: column;
+
+    }
+    header nav .container-fluid .connexion{
+        display: none;
+    }
+    .connexion2{
+       display: flex;
+    }
+    .section1 .gauche p {
+        padding: 1.5rem 0;
+    }
+
+    .cercle:nth-child(1) {
+        display: none;
+
+
+    }
+
+    .cercle:nth-child(2) {
+        display: none;
+    }
+
+    .cercle:nth-child(3) {
+
+        display: none;
+
+    }
+
+    .section1 .droite {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        /* display: none; */
+    }
+
+    .section2 .liste1 {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .desciption p {
+        font-size: 1rem;
+    }
+
+    .desciption h3 {
+        font-size: 2rem;
+    }
+
+    .section3 .listforsection3 {
+        flex-direction: column;
+    }
+
+    .section3 {
+        padding: 0;
+    }
+
+    .section3 .card3 {
+        width: 100%;
+        transition: 0.7s;
+        flex-direction: column;
+    }
+
+    .section3 .card3:hover {
+        transition: 0.7s;
+        transform: scale(1.05);
+    }
+
+    .section3 .card3 .partie1 {
+        text-align: center;
+    }
+
+    .card3:hover .partie1 {
+
+        transform: none;
+        transition: 1s;
+    }
+
+    .section3 .card3 .partie1 img {
+        width: 75%;
+        margin-left: -1rem;
+    }
+
+    .section3 .card3 .partie2 h2 {
+        font-size: 2rem;
+    }
+
+    .section3 .card3 .partie2 .etoile3 i {
+        font-size: 1.5rem;
+    }
+
+    .section4 .listforsection4 {
+        flex-direction: column;
+    }
+
+    .section4 .listforsection4 a {
+        width: 100%;
+    }
+
+    .section3 .card3 .partie2 p {
+        font-size: 1rem;
+        /* text-align: initial; */
+    }
+
+    .sectioncontact {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .sectioncontact h2 {
+        font-size: 1.5rem;
+    }
+
+    footer .boxfoot {
+
+        flex-direction: column;
+    }
+
+    footer .pp2 {
+        padding: 3rem 0;
+    }
+
+    footer .credit {
+        font-size: 17px;
+    }
+
+/*======= formulaiee ============*/
+
+.box-form-content {
+    width: auto;
+}
+
+
+}
+
+
+/* pour tablette  1518-768 */
+
+@media screen and (max-width: 1089px) and (min-width: 768px) {
+    main .section1 {
+        height: auto;
+        /* flex-direction: column; */
+
+    }
+    header nav .container-fluid .connexion{
+        display: none;
+    }
+    .connexion2{
+        display: flex;
+     }
+
+    .section1 .gauche p {
+        padding: 1.5rem 0;
+    }
+
+
+    .section1 .droite img {
+        width: 115%;
+    }
+
+    .cercle:nth-child(1) {
+        display: none;
+
+
+    }
+
+    .cercle:nth-child(2) {
+        display: none;
+    }
+
+    .cercle:nth-child(3) {
+
+        display: none;
+
+    }
+
+
+    .descmodif {
+        height: 8rem;
+    }
+
+    .section2 .liste1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section1 .droite {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        /* display: none; */
+    }
+    .section2 .card .prix{
+        margin-top: 3rem;
+    }
+
+    .section2 .card:hover {
+        transform: none;
+    }
+
+    .section2 .liste1 {
+        gap: 2rem;
+    }
+
+    .listforsection3 {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section3 .card3 {
+        width: 100%;
+    }
+
+    footer .boxfoot {
+
+        flex-direction: column;
+    }
+
+    footer .pp2 {
+        padding: 3rem 0;
+    }
+
+    footer .credit {
+        font-size: 17px;
+    }
+
+    /*======= formulaiee ============*/
+
+.box-form-content {
+    width: 50%;
+}
+
+}
+
+
+/* mini ordi */
+@media screen and (max-width: 1380px) and (min-width: 1089px) {
+
+    main .section1 {
+        height: auto;
+    }
+    header nav .container-fluid .connexion{
+        display: none;
+    }
+    .connexion2{
+        display: flex;
+     }
+
+    .cercle:nth-child(1) {
+        display: none;
+    }
+
+    .cercle:nth-child(2) {
+        display: none;
+    }
+
+    .cercle:nth-child(3) {
+
+        display: none;
+
+    }
+    .descmodif {
+        height: 8rem;
+    }
+
+    .desciption p {
+        text-align: inherit;
+    }
+
+    .section2 .card .prix {
+        margin-top: 5rem;
+    }
+}
+
+
+/* exeption */
+
+@media screen and (max-width: 1500px) and (min-width: 1360px) {
+    header nav .container-fluid .connexion{
+        display: none;
+    }
+    .connexion2{
+        display: flex;
+     }
+
+
+}

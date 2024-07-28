@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/responsive/responsive.css">
+  <link rel="stylesheet" href="fontawesome-6.2.1/css/all.css">
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="icon" type="image/png" href="image/logoooo.png">
+
+
+  <title>Food shop service</title>
+</head>
+
+<body>
+  <!-- <header>
+    <a href="" class="logooo"><img src="image/logoooo.png"  alt=""></a>
+    <nav>
+      <ul>
+        <li><a href="">acceuil</a></li>
+      </ul>
+      <ul>
+        <li><a href="">A propos</a></li>
+      </ul>
+      <ul>
+        <li><a href="">contact</a></li>
+      </ul>
+    </nav>
+
+    <button>se connecter</button>
+
+    
+  </header> -->
+
+
+  <header>
+    <nav class="navbar  " aria-label="Light offcanvas navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand logooo" href="#">food shop service</a>
+
+        <div class="connexion">
+          <button class="login1">se connecter</button>
+          <button class="login2">s'inscrire</button>
+        </div>
+
+        <button class="navbar-toggler burger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight"
+          aria-controls="offcanvasNavbarLight">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end bodyburger  " tabindex="-1" id="offcanvasNavbarLight"
+          aria-labelledby="offcanvasNavbarLightLabel">
+          <div class="offcanvas-header cancolor">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLightLabel">food shop service</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body cancolor">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">A propos </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="other page/Menu.html#sec3">Plat du jour</a></li>
+                  <li><a class="dropdown-item" href="other page/Menu.html#sec4">Fast food</a></li>
+                  <li><a class="dropdown-item" href="other page/Menu.html#sec5">Spaghetti</a></li>
+                  <li><a class="dropdown-item" href="other page/Menu.html#sec6">Boisson</a></li>
+                  <li><a class="dropdown-item" href="other page/Menu.html#sec7">Desserts</a></li>
+                  <li><a class="dropdown-item" href="other page/Menu.html#sec8">Soupe</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="bar" type="search" placeholder="Search" aria-label="Search">
+              <button class="recherche " type="submit">Search</button>
+            </form>
+            <div class="connexion2">
+              <button class="login1">se connecter</button>
+              <button class="login2">s'inscrire</button>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+  </header>
+
+
+  <main>
+    <form class="form1">
+      <div class="box-form-content">
+
+
+        <div class="connect d-flex justify-content-between align-items-center">
+          <h2 class="text-center">connexion</h2>
+          <button type="button" class="btn-close closeee" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="form-content">
+          <!-- <div class="name-surnam d-flex gap-4">
+
+            <div class="mb-3">
+              <label for="exampleInpuname" class="form-label">Nom</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="namehelp">
+              <div id="namehelp" class="form-text">Remplit ce formulaire</div>
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleInputsurnam" class="form-label">prenom</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="surnamhelp">
+              <div id="surnamhelp" class="form-text">Remplit ce formulaire</div>
+            </div>
+
+          </div> -->
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Adresse e-mail"
+              aria-describedby="emailHelp" required>
+
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" placeholder="Mot de passe" id="exampleInputPassword1" required>
+          </div>
+          <div class="connex-boxx">
+            <button type="submit" class=" connexion1">se connecter</button>
+          </div>
+
+          <div class="creation-compte">
+            <button class="creer1">Créer nouveaux compte</button>
+          </div>
+
+        </div>
+      </div>
+    </form>
+
+    <form class="form2">
+      <div class="box-form-content">
+
+
+        <div class="connect d-flex justify-content-between align-items-center">
+          <h2 class="text-center">Inscription</h2>
+          <button type="button" class="btn-close closeee20" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="form-content">
+        
+          <div class="mb-3">
+            <label for="name" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="name" placeholder="entrez votre nom"
+              aria-describedby="nameHelp" required>
+
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Adresse e-mail"
+              aria-describedby="emailHelp" required>
+
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" placeholder="Mot de passe" id="exampleInputPassword1" required>
+          </div>
+          <div class="connex-boxx">
+            <button type="submit" class=" connexion1">s' inscrire</button>
+          </div>
+
+          <div class="creation-compte">
+            <button class="creer2">je possède un compte</button>
+          </div>
+
+        </div>
+      </div>
+    </form>
+
+
+
+    <div>
+      <div class="bd-example-snippet bd-code-snippet">
+        <div class="bd-example">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <!-- <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+        </div> -->
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <!-- item1111 -->
+                <section class="section1">
+                  <div class="gauche">
+
+                    <h1>bienvenu dans <span>food</span> shop service </h1>
+                    <p>Plongez dans une expérience culinaire palpitante avec notre gamme de fast-foods, conçue pour
+                      ravir vos papilles à chaque bouchée! Laissez-vous séduire par nos délices gourmands et succombez
+                      au plaisir de nos plats rapides et savoureux!
+                    </p>
+                    <a href="other page/Menu.html">
+                      <button> voir tous les plats</button>
+                    </a>
+                  </div>
+                  <div class="droite" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                    <img src="image/carroussel/humbb444.png" width="100%" alt="">
+                    <div class="effets">
+                      <div class="cercle"><img src="image/Ouvrir-un-fast-food-22.png" alt=""></div>
+                      <div class="cercle"><img src="image/street food/tacos.png" alt=""></div>
+                      <div class="cercle"><img src="image/street food/pizza.png" alt=""></div>
+                    </div>
+                  </div>
+                </section>
+
+
+              </div>
+              <div class="carousel-item">
+                <!-- item222 -->
+
+                <section class="section1">
+                  <div class="gauche">
+                    <h1>bienvenu dans <span>food</span> shop service </h1>
+                    <p>Découvrez chaque jour une nouvelle aventure gustative avec nos plats du jour, concoctés avec
+                      passion et créativité pour éveiller vos sens! Laissez-vous tenter par nos créations uniques et
+                      savourez l'excellence à chaque assiette
+                    </p>
+                    <a href="other page/Menu.html">
+                      <button> voir tous les plats</button>
+                    </a>
+
+                  </div>
+                  <div class="droite" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                    <img src="image/plat du jour/steak.png" alt="">
+                    <div class="effets">
+                      <div class="cercle"><img src="image/plat du jour/poulet.png" alt=""></div>
+                      <div class="cercle"><img src="image/plat du jour/steak.png" alt=""></div>
+                      <div class="cercle"><img src="image/plat du jour/poulet22.png" alt=""></div>
+                    </div>
+                  </div>
+                </section>
+
+
+              </div>
+              <div class="carousel-item active">
+                <!-- item333 -->
+
+                <section class="section1">
+                  <div class="gauche">
+                    <h1>bienvenu dans <span>food</span> shop service </h1>
+                    <p>Explorez notre éventail de desserts exquis, conçus pour enchanter vos papilles et combler vos
+                      envies sucrées! Laissez-vous tenter par nos créations gourmandes et succombez au plaisir d'une
+                      douce délectation à chaque bouchée!
+                    </p>
+                    <a href="other page/Menu.html">
+                      <button> voir tous les plats</button>
+                    </a>
+                  </div>
+                  <div class="droite" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                    <img src="image/dessert/tranche de gateaux.png" width="100%" alt="">
+                    <div class="effets">
+                      <div class="cercle"><img src="image/dessert/gateaux.png" alt=""></div>
+                      <div class="cercle"><img src="image/dessert/gateaux2.png" alt=""></div>
+                      <div class="cercle"><img src="image/dessert/tranche de gateaux.png" alt=""></div>
+                    </div>
+                  </div>
+                </section>
+
+
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- section 2222 -->
+    <section class="section2" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
+      <h1>Meilleur Choix des clients</h1>
+      <div class="liste1">
+        <div class="card">
+          <div class="icon">
+            <img src="image/Ouvrir-un-fast-food-22.png" alt="">
+          </div>
+          <div class="desciption">
+            <h3>Hamburger</h3>
+            <div class="etoile">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <div class="descmodif">
+              <p>Délectez-vous avec notre hamburger gourmet, un chef-d'œuvre de saveurs et de textures exquises qui
+                éveillera vos papilles à chaque bouchée! Savourez la fusion parfaite du viande saute a la sauce
+
+              </p>
+            </div>
+            <div class="prix">
+              <p>prix: 25000 fmg</p>
+              <div class="commande">
+                <a href="other page/Menu.html#sec4">
+                  <i class="fa fa-shopping-cart" aria-hidden="true">
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <div class="icon">
+            <img src="image/dessert/glace.png" alt="">
+          </div>
+          <div class="desciption">
+            <h3>Glace </h3>
+            <div class="etoile">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+
+            </div>
+            <div class="descmodif">
+              <p>
+                Dégustez nos glaces artisanales, une explosion de fraîcheur et de douceur qui enchantera vos papilles à
+                chaque délice! Savourez la richesse des saveurs authentiques et la créativité du chef
+              </p>
+            </div>
+            <div class="prix">
+              <p>prix: 10000 fmg</p>
+              <div class="commande">
+                <a href="other page/Menu.html#sec7">
+                  <i class="fa fa-shopping-cart" aria-hidden="true">
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon">
+            <img src="image/plat du jour/steak.png" alt="">
+          </div>
+          <div class="desciption">
+            <h3>Steak special</h3>
+            <div class="etoile">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <div class="descmodif">
+              <p>Plongez dans notre plat de steak et pommes frites gourmet, une fusion de saveurs qui
+                enchantera vos sens à chaque bouchée! Dégustez la perfection d'une viande tendre et juteuse
+              </p>
+            </div>
+            <div class="prix">
+              <p>35000 fmg</p>
+              <div class="commande">
+                <a href="other page/Menu.html#sec3">
+                  <i class="fa fa-shopping-cart" aria-hidden="true">
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="card">
+          <div class="icon">
+            <img src="image/dessert/Salade de fruit.png" alt="">
+          </div>
+          <div class="desciption">
+            <h3>Salade de fruit</h3>
+            <div class="etoile">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+
+            </div>
+            <div class="descmodif">
+              <p>
+                Savourez nos salades de fruits fraîches, un festival de couleurs et de saveurs qui éveillera vos sens à
+                chaque bouchée! Découvrez la fraîcheur des fruits de saison soigneusement parfumé et bon
+              </p>
+            </div>
+            <div class="prix">
+              <p>prix: 22500 fmg</p>
+              <div class="commande">
+                <a href="other page/Menu.html#sec7">
+                  <i class="fa fa-shopping-cart" aria-hidden="true">
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- section 2 = 3 -->
+
+
+    <section class="section2" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
+      <h1>Boisson</h1>
+      <div class="liste1">
+        <div class="card">
+          <div class="icon">
+            <img src="image/boisson/baileys.png" alt="">
+          </div>
+          <div class="desciption">
+            <h3>Baileys</h3>
+            <div class="etoile">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <div class="descmodif">
+              <p>Dégustez notre Baileys avec délice, une symphonie de crémeux et de notes enivrantes qui ravira vos
+                papilles à chaque gorgée! Plongez dans l'onctuosité de ce délice de se superbe...
+              </p>
+            </div>
+            <div class="prix">
+              <p>prix: 300000 fmg</p>
+              <div class="commande">
+                <a href="other page/Menu.html#sec6">
+                  <i class="fa fa-shopping-cart" aria-hidden="true">
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon">
+            <img src="image/boisson/rhum.png" alt="">
+          </div>
+          <div class="desciption">
+            <h3>Drama</h3>
+            <div class="etoile">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+
+            </div>
+            <div class="descmodif">
+              <p>Découvrez notre boisson "Drama", une explosion de saveurs et de sensations qui captivera vos sens à
+                chaque gorgée! Plongez dans l'excitation d'un mélange audacieux de boisson
+              </p>
+            </div>
+            <div class="prix">
+              <p>prix: 50000 fmg</p>
+              <div class="commande">
+                <a href="other page/Menu.html#sec6">
+                  <i class="fa fa-shopping-cart" aria-hidden="true">
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon">
+            <img src="image/boisson/limonade.png" alt="">
+          </div>
+          <div class="desciption">
+            <h3>Limonade </h3>
+            <div class="etoile">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+
+            </div>
+            <div class="descmodif">
+              <p>
+                Rafraîchissez-vous avec notre limonade maison, une explosion de fraîcheur et de vivacité qui éveillera
+                vos papilles à chaque gorgée! Savourez la douceur acidulée des citrons frais...
+              </p>
+            </div>
+            <div class="prix">
+              <p>prix: 12500 fmg</p>
+              <div class="commande">
+                <a href="other page/Menu.html#sec6">
+                  <i class="fa fa-shopping-cart" aria-hidden="true">
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card">
+          <div class="icon">
+            <img src="image/boisson/kabisa.png" alt="">
+          </div>
+          <div class="desciption">
+            <h3>Kabisa</h3>
+            <div class="etoile">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+
+              <div class="descmodif">
+                <p>Découvrez notre boisson "Kabisa", une fusion envoûtante de saveurs exotiques et de rafraîchissement
+                  intense qui transportera vos sens vers de nouveaux horizons à chaque gorgée!
+                </p>
+              </div>
+              <div class="prix">
+                <p>prix: 15000 fmg</p>
+                <div class="commande">
+                  <a href="other page/Menu.html#sec6">
+                    <i class="fa fa-shopping-cart" aria-hidden="true">
+                    </i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- section 33333 -->
+
+
+    <section class="section3">
+      <h1>Les fast food </h1>
+      <div class="listforsection3">
+        <div class="card3" data-aos="fade-right" data-aos-duration="2000">
+          <div class="partie1">
+            <img src="image/Ouvrir-un-fast-food-22.png" alt="">
+          </div>
+          <div class="partie2">
+            <h2>Humberger</h1>
+              <div class="etoile3">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <p>Dégustez notre hamburger signature, un festin de saveurs et de textures qui ravira vos papilles à
+                chaque bouchée! Savourez la perfection d'un steak juteux, associé à des ingrédients frais et
+                croustillants, entre deux pains moelleux, pour une expérience culinaire inégalée!
+              </p>
+              <div class="prix">
+                <p>prix: 25000 fmg</p>
+                <div class="commande">
+                  <a href="other page/Menu.html#sec4">
+                    <i class="fa fa-shopping-cart" aria-hidden="true">
+                    </i>
+                  </a>
+                </div>
+              </div>
+
+
+          </div>
+        </div>
+
+
+        <div class="card3" data-aos="fade-right" data-aos-duration="2000">
+          <div class="partie1">
+            <img src="image/street food/panini.png" alt="">
+          </div>
+          <div class="partie2">
+            <h2>Panini</h1>
+              <div class="etoile3">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+
+              </div>
+              <p>Savourez notre panini artisanal, un délice croustillant et fondant qui vous transporte instantanément
+                en Italie à chaque bouchée! Découvrez l'harmonie parfaite entre des ingrédients de qualité,
+                soigneusement grillés et enveloppés dans une texture moelleuse, pour une expérience gustative
+                authentique et exquise!
+              </p>
+              <div class="prix">
+                <p>prix: 17500 fmg</p>
+                <div class="commande">
+                  <a href="other page/Menu.html#sec4">
+                    <i class="fa fa-shopping-cart" aria-hidden="true">
+                    </i>
+                  </a>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="listforsection3">
+        <div class="card3" data-aos="fade-right" data-aos-duration="2000">
+          <div class="partie1">
+            <img src="image/street food/tacos.png" alt="">
+          </div>
+          <div class="partie2">
+            <h2>Tacos</h1>
+              <div class="etoile3">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+
+              </div>
+              <p>Dégustez nos tacos authentiques, une explosion de saveurs et d'épices qui vous transporte directement
+                au cœur du Mexique à chaque bouchée! Plongez dans la richesse des ingrédients savoureux, enveloppés dans
+                des tortillas fraîches et garnis de garnitures fraîches, pour une expérience culinaire vibrante et
+                délicieusement addictive!
+              </p>
+              <div class="prix">
+                <p>prix: 25000 fmg</p>
+                <div class="commande">
+                  <a href="other page/Menu.html#sec4">
+                    <i class="fa fa-shopping-cart" aria-hidden="true">
+                    </i>
+                  </a>
+                </div>
+              </div>
+
+          </div>
+        </div>
+
+
+        <div class="card3" data-aos="fade-right" data-aos-duration="2000">
+          <div class="partie1">
+            <img src="image/street food/pizza.png" alt="">
+          </div>
+          <div class="partie2">
+            <h2>Pizza</h1>
+              <div class="etoile3">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <p>
+                Découvrez nos pizzas artisanales, une symphonie de saveurs italiennes qui envoûte vos papilles à chaque
+                part! Savourez la perfection d'une pâte croustillante, garnie de fromages fondants et d'ingrédients
+                frais soigneusement sélectionnés, pour une expérience gustative authentique et délicieusement
+                satisfaisante!
+              </p>
+              <div class="prix">
+                <p>prix: 100000 fmg</p>
+                <div class="commande">
+                  <a href="other page/Menu.html#sec4">
+                    <i class="fa fa-shopping-cart" aria-hidden="true">
+                    </i>
+                  </a>
+                </div>
+              </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+    </section>
+
+
+    <!-- sectionnn 44444 === 333 ### -->
+
+
+
+
+    <section class="section4">
+      <h1>catégories </h1>
+      <div class="listforsection4">
+
+        <a href="other page/Menu.html#sec3" data-aos="fade-up" data-aos-duration="2000">
+          <div class="catfood">
+            <h3 class="catname">PLAT DU JOUR</h3>
+          </div>
+          <div class="card4">
+            <div class="partie1">
+              <img src="image/plat du jour/poulet.png" alt="">
+            </div>
+            <div class="partie1">
+
+              <img src="image/plat du jour/steak.png" alt="">
+            </div>
+            <div class="partie1">
+              <img src="image/plat du jour/poulet22.png" alt="">
+            </div>
+          </div>
+        </a>
+
+
+        <a href="other page/Menu.html#sec4" data-aos="fade-up" data-aos-duration="2000">
+          <div class="catfood">
+            <h3 class="catname">FAST FOOD</h3>
+          </div>
+          <div class="card4">
+            <div class="partie1">
+              <img src="image//street food/tacos.png" alt="">
+            </div>
+            <div class="partie1">
+
+              <img src="image/Ouvrir-un-fast-food-22.png" alt="">
+            </div>
+            <div class="partie1">
+              <img src="image/street food/pizza.png" alt="">
+            </div>
+          </div>
+        </a>
+
+        <a href="other page/Menu.html#sec5" data-aos="fade-up" data-aos-duration="2000">
+          <div class="catfood">
+            <h3 class="catname">BOISSON</h3>
+          </div>
+          <div class="card4">
+            <div class="partie1">
+              <img src="image/boisson/baileys.png" alt="">
+            </div>
+            <div class="partie1">
+
+              <img src="image/boisson/cocacola22.png" alt="">
+            </div>
+            <div class="partie1">
+              <img src="image/boisson/rhum.png" alt="">
+            </div>
+          </div>
+        </a>
+
+
+      </div>
+
+
+
+
+
+      <!-- itemmm2222 -->
+
+
+      <div class="listforsection4">
+
+        <a href="other page/Menu.html#sec6" data-aos="fade-up" data-aos-duration="2000">
+          <div class="catfood">
+            <h3 class="catname">SPAGHETTI</h3>
+          </div>
+          <div class="card4">
+            <div class="partie1">
+              <img src="image/spaghetti/boeuf.png" alt="">
+            </div>
+            <div class="partie1">
+
+              <img src="image/spaghetti/bolognaise.png" alt="">
+            </div>
+            <div class="partie1">
+              <img src="image/spaghetti/simple.png" alt="">
+            </div>
+          </div>
+        </a>
+
+
+        <a href="other page/Menu.html#sec7" data-aos="fade-up" data-aos-duration="2000">
+          <div class="catfood">
+            <h3 class="catname">DESSERTS</h3>
+          </div>
+          <div class="card4">
+            <div class="partie1">
+              <img src="image/dessert/glace.png" alt="">
+            </div>
+            <div class="partie1">
+
+              <img src="image/dessert/Salade de fruit.png" alt="">
+            </div>
+            <div class="partie1">
+              <img src="image/dessert/tranche de gateaux.png" alt="">
+            </div>
+          </div>
+        </a>
+
+        <a href="other page/Menu.html#sec8" data-aos="fade-up" data-aos-duration="2000">
+          <div class="catfood">
+            <h3 class="catname">SOUPE</h3>
+          </div>
+          <div class="card4">
+            <div class="partie1">
+              <img src="image/soupe/soupesimple.png" alt="">
+            </div>
+            <div class="partie1">
+
+              <img src="image/soupe/special.png" alt="">
+            </div>
+            <div class="partie1">
+              <img src="image/soupe/soupedemilune.png" alt="">
+            </div>
+          </div>
+        </a>
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+    </section>
+
+
+    <!-- section contact -->
+
+
+    <section class="sectioncontact" id="contact" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+      data-aos-delay="300" data-aos-offset="0">
+      <div class="partie1">
+        <h2>pourquoi j'ai creer cette site ? </h2>
+        <p data-aos="fade-up" data-aos-duration="2000">
+          J'ai créé ce site web de service de restauration avec une passion profonde pour la cuisine et le désir de
+          partager mes créations culinaires avec le monde. Mon objectif est de fournir une expérience gastronomique
+          exceptionnelle à mes clients, en leur offrant des plats préparés avec soin, des ingrédients de qualité et une
+          touche d'innovation.. Que ce soit pour satisfaire une envie soudaine de gourmandise ou pour célébrer un moment
+          spécial, je veux que chacun trouve sur mon site web une gamme variée de délices culinaires qui éveillent les
+          papilles et nourrissent l'âme. Je crois fermement que la nourriture a le pouvoir de rassembler les gens, de
+          créer des souvenirs durables et de susciter des émotions positives, et c'est cette conviction qui guide
+          chacune de mes créations et chaque interaction avec mes clients.</p>
+      </div>
+      <div class="partie2">
+        <h2>contacte nous</h2>
+        <form action="">
+          <input type="text" placeholder="votre nom">
+          <input type="email" placeholder="votre adresse email">
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <button>Envoyer</button>
+        </form>
+      </div>
+
+    </section>
+
+
+
+
+
+
+  </main>
+
+
+
+  <!-- footer -->
+
+
+  <footer id="footer">
+    <div class="boxfoot">
+      <div class="part1" data-aos="fade-right" data-aos-duration="2000">
+        <a href="#" class="logo"><img src="image/logoooo.png"></a>
+        <p>Ce site est la version 1.0 mais qui seras à jour à chaque mois
+        </p>
+        <div class="share">
+          <a href="https://m.facebook.com" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+      </div>
+      <div class="pp2" data-aos="fade-down" data-aos-duration="2000">
+        <h1>Faite votre choix</h1>
+        <div class="part2">
+          <a href=""><img src="image/carroussel/humbb444.png" alt=""></a>
+          <a href=""><img src="image/plat du jour/poulet.png" alt=""></a>
+          <a href=""><img src="image/boisson/kkkkk.png" alt=""></a>
+          <a href=""><img src="image/dessert/glace.png" alt=""></a>
+          <a href=""><img src="image/soupe/special.png" alt=""></a>
+          <a href=""><img src="image/spaghetti/simple.png" alt=""></a>
+        </div>
+      </div>
+
+      <div class="pp3" data-aos="fade-up" data-aos-duration="2000">
+        <h1>Contact et email</h1>
+        <div class="part3">
+          <a href="tel:+261342290407" class="links"><i class="fas fa-phone"></i> +261 34 22 904 07</a>
+          <a href="tel:+261342290407" class="links"><i class="fas fa-phone"></i> +261 34 22 904 07</a>
+          <a href="mailto:todiveloyannandronio@gmail.com" class="links"><i class="fas fa-envelope"></i>
+            andronio@gmail.com</a>
+          <a href="" class="links"><i class="fas fa-map-marker-alt"></i> Antananarivo - 101, Madagascar</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="credit">Créer par <span> Andronio </span> | Tout droit reservé | Copyright &copy; 2023 </div>
+  </footer>
+
+
+</body>
+
+<script src="bootstrap/bootstrap.bundle.min.js"></script>
+<script src="./javascript/aos.js"></script>
+<script src="./javascript/connexion.js"></script>
+<script src="./javascript/inscription.js"></script>
+<script>AOS.init()</script>
+<!-- <script src="javascript/test.js"></script> -->
+
+</html>
